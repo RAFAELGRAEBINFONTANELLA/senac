@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Senac-RS</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<center><h1> Pizzaria da Mamma: Pedido Online </h1></center>
+<form action="validaform.php" method="post">
+<div>
+<label for="nome"> Nome: </label>
+<input type="text" id="nome" />
+</div>
+<br> 
+<label for="nome"> Endereço: </label>
+<input type="text" id="endereco" />
+</div>
+<div>
+<label for="nome"> Tamanho da pizza </label>
+<br>
+<select>
+<option value="brotinho">Brotinho</option>
+<option value="médio">Médio</option>
+<option value="grande">Grande</option>
+<option value="gg">GG</option>
+</select>
+</div>
+<br> 
+<div>
+<label for="Telefone">Data: </label>
+<input type="text" id=telefone" />
+</div>
+<br> 
+<label for="sabor">Escolha o sabor da pizza:</label>
+<br>
+<select>
+<option value="quattroqueijos">Quatro Queijos</option>
+<option value="calabresa">Calabresa</option>
+<option value="vegetariana">Vegetariana</option>
+<option value="filécompalha">Filé com Palha/option>
+<option value="frangocomcatupiry">Frango com Catupiry/option>
+<option value="marguerita">Marguerita</option>
+</select>
+<br>
+
+<br>               
+<label for="pagamento">Escolha o tipo de pagamento:</label>
+<br>
+<select id="pagamento" name="pagamento">
+<option value="pix">PIX</option>
+<option value="dinheiro">Dinheiro</option>
+<option value="credito">Crédito</option>
+<option value="debito">Débito</option>
+</select>
+<br>
+
+ 
+<div class="button">
+<button type="submit">Realizar pedido</button>
+</div>
+<div class="button">
+<button type="reset">Cancelar edido</button>
+</div>
+</form>     
+
+</body>
+</html>
